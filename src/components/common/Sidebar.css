@@ -1,0 +1,35 @@
+.sidebar {
+  width: 240px;
+  min-height: calc(100vh - 64px);
+  background-color: #e6eaee;
+  padding-top: 20px;
+}
+
+.sidebar-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #333;
+  gap: 12px;
+  font-size: 14px;
+  position: relative;
+}
+
+.sidebar-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-item.active {
+  background-color: #C82333;
+  color: white;
+}
+
+.sidebar-item svg {
+  font-size: 18px;
+}

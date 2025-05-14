@@ -1,0 +1,22 @@
+.meeting-point {
+  margin-bottom: 30px;
+}
+
+.meeting-point h3 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.meeting-point-content {
+  display: flex;
+  gap: 20px;
+}
+
+.meeting-point-col {
+  flex: 1;
+}
+
+.task-checkbox {
+  margin-top: 10px;
+}

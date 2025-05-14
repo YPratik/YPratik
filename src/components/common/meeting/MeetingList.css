@@ -1,0 +1,62 @@
+.meeting-list {
+  padding: 20px;
+  height: 100%;
+}
+
+.meeting-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.new-mom-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.meeting-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.meeting-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.meeting-table th,
+.meeting-table td {
+  padding: 12px 8px;
+  text-align: left;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+}
+
+.meeting-table th {
+  background-color: #f9f9f9;
+  font-weight: 500;
+}
+
+.meeting-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.active-status {
+  background-color: #6AC259;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+}
+
+.arrow-down {
+  font-size: 10px;
+  margin-left: 8px;
+}
